@@ -35,15 +35,7 @@ with open('counties.json', 'w') as f:
 # Обозначение файлов и получение анализируемых данных
 map_file_counties = 'counties.json'
 map_file_districts = 'districts.json'
-data_file = input('Выберете файл'
-                  '\n\tзерно'
-                  '\n\tкартофель'
-                  '\n\tмолоко'
-                  '\n\tмясо'
-                  '\n\tовощи'
-                  '\n\tфрукты'
-                  '\n\tяйцо'
-                  '\nСкопируйте и вставьте: ')+'.json'
+data_file = input('Выберете файл:')
 with open(data_file, encoding="utf-8") as f:
     data = json.load(f)
 # Обозначение списков
